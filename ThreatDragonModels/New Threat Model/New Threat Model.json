@@ -436,19 +436,23 @@
             ],
             "id": "dfb102e3-8f7c-40d8-bf82-ac95b36bf721",
             "source": {
-              "cell": "2f36429c-27de-4f10-8731-6f9b40de4002",
-              "port": "7264c77d-a677-4aca-9634-9a8b8d1a2cc3"
+              "x": 350,
+              "y": 370
             },
             "target": {
               "cell": "9dfa9146-e5c1-4741-b9a4-42c89f288da9",
               "port": "a25c7cd1-9cf0-4c30-8132-b34bacfb6899"
             },
-            "vertices": [
-              {
-                "x": 440,
-                "y": 310
-              }
-            ]
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
