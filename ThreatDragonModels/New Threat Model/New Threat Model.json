@@ -736,7 +736,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success",
+              "name": "Success = 1",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -750,7 +750,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Success"
+              "Success = 1"
             ],
             "id": "adb0ae25-5a15-44b0-aa72-642c90ee2385",
             "source": {
@@ -762,6 +762,10 @@
               "port": "775c6cc1-522d-4f50-96c1-3eae709c3727"
             },
             "vertices": [
+              {
+                "x": 860,
+                "y": 300
+              },
               {
                 "x": 840,
                 "y": 300
