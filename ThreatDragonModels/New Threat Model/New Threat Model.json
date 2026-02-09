@@ -773,6 +773,40 @@
             ]
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Generic Trust Boundary"
+            ],
+            "id": "b528d4d1-2f3d-4586-83fd-8e5399791b64",
+            "source": {
+              "x": 560,
+              "y": -140
+            },
+            "target": {
+              "x": 590,
+              "y": 360
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 20
+              }
+            ]
+          },
+          {
             "position": {
               "x": 615,
               "y": -139.99999999999994
@@ -793,6 +827,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -876,7 +911,6 @@
               ]
             },
             "id": "6d0a954d-0dc4-4839-a4d0-5ed6fd8360c2",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Authorization\nProvider",
@@ -916,6 +950,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -999,7 +1034,6 @@
               ]
             },
             "id": "0d3220e8-164e-4ee3-b24e-88a64caa7f54",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "LDAP",
@@ -1040,6 +1074,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1123,7 +1158,6 @@
               ]
             },
             "id": "52c3de9c-49e2-4b63-8b42-3735dee96f43",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "SQL Database",
